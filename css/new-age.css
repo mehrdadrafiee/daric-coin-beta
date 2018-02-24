@@ -166,11 +166,8 @@ header.masthead .header-content h1 {
   font-size: 30px;
 }
 
-header.masthead .header-content .badge-link {
-  z-index: 1000;
-}
-
-header.masthead .header-content .badge-link img {
+header.masthead .badge-link img {
+  z-index: 2;
   height: 50px;
 }
 
@@ -447,5 +444,5 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .canvas {
   position: absolute;
-  z-index: 9;
+  z-index: 1;
 }
