@@ -1,13 +1,3 @@
-# [Start Bootstrap - New Age](https://startbootstrap.com/template-overviews/new-age/)
-
-[New Age](http://startbootstrap.com/template-overviews/new-age/) is a web app landing page theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
-
-## Preview
-
-[![New Age Preview](https://startbootstrap.com/assets/img/templates/new-age.jpg)](https://blackrockdigital.github.io/startbootstrap-new-age/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-new-age/)**
-
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-new-age/master/LICENSE)
@@ -16,13 +6,16 @@
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-new-age/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-new-age)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-new-age/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-new-age?type=dev)
 
-## Download and Installation
+## Contribute
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/new-age/)
-* Install via npm: `npm i startbootstrap-new-age`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-new-age.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-new-age)
+To begin using contributing to this project do the following steps:
+
+* Install [Brew](https://brew.sh/) globally on your system: `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+* Install [Yarn](https://yarnpkg.com/en/) globally on your system: `brew install yarn`
+* Open Terminal and clone this repo: `git clone https://github.com/mehrdadrafiee/daric-coin-beta`
+* In your terminal navigate to where you cloned the repo: `cd navigate/to/daric-coin-beta`
+* Install dependencies via yarn: `yarn`
+* Run the app in development mode: `yarn dev`
 
 ## Usage
 
