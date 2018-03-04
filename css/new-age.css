@@ -5,14 +5,14 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 
 a {
   color: #fdcc52;
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 a:hover, a:focus {
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -58,17 +58,17 @@ section h2 {
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
-  -webkit-transition: all .35s;
-  -moz-transition: all .35s;
-  transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
-  color: #210D3B;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  color: #210d3b;
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -85,7 +85,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -106,7 +106,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #210D3B;
+  color: #210d3b;
 }
 
 @media (min-width: 992px) {
@@ -115,7 +115,7 @@ section h2 {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: #210D3B;
+    color: #210d3b;
   }
   #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
     color: white;
@@ -126,17 +126,17 @@ section h2 {
   }
   #mainNav .navbar-nav > li > a:hover,
   #mainNav .navbar-nav > li > a:focus:hover {
-    color: #210D3B;
+    color: #210d3b;
   }
   #mainNav.navbar-shrink {
     border-color: rgba(34, 34, 34, 0.1);
     background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #210D3B;
+    color: #210d3b;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #210D3B;
+    color: #210d3b;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -144,7 +144,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #210D3B;
+    color: #210d3b;
   }
 }
 
@@ -413,7 +413,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   color: #fdcc52;
 }
 
-.no-gutter > [class*='col-'] {
+.no-gutter > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -432,7 +432,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   letter-spacing: 2px;
   text-transform: uppercase;
 }

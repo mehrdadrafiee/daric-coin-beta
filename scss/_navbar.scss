@@ -1,21 +1,21 @@
 // Styling for the navbar
 #mainNav {
-  border-color: fade-out($gray-darker, .95);
+  border-color: fade-out($gray-darker, 0.95);
   background-color: white;
   @include transition-all;
   @include heading-font;
   .navbar-brand {
-      color: $brand-daric;
-      @include heading-font;
-      &:hover,
-      &:focus {
-        color: darken($brand-daric, 10%);
-      }
+    color: $brand-daric;
+    @include heading-font;
+    &:hover,
+    &:focus {
+      color: darken($brand-daric, 10%);
+    }
   }
   .navbar-toggler {
-      font-size: 12px;
-      padding: 8px 10px;
-      color: $gray-darker;
+    font-size: 12px;
+    padding: 8px 10px;
+    color: $gray-darker;
   }
   .navbar-nav {
     > li {
@@ -57,7 +57,7 @@
       }
     }
     &.navbar-shrink {
-      border-color: fade-out($gray-darker, .9);
+      border-color: fade-out($gray-darker, 0.9);
       background-color: white;
       .navbar-brand {
         color: $brand-daric;
