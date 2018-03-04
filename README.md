@@ -16,6 +16,7 @@ To begin contributing to this project, do the following steps:
 * In your terminal navigate to where you cloned the repo: `cd navigate/to/daric-coin-beta`
 * Install dependencies via yarn: `yarn`
 * Run the app in development mode: `yarn dev`
+* Create a branch off of master and send PRs with your changes
 
 ## Usage
 
