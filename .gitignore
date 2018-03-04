@@ -3,6 +3,7 @@
 # compiled output
 /dist
 /tmp
+/js/*.min.js
 
 # dependencies
 /node_modules
