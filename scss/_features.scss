@@ -33,10 +33,10 @@ section.features {
       margin-bottom: 15px;
       background: -webkit-linear-gradient(
         to left,
-        $theme-secondary,
-        $theme-tertiary
+        $brand-daric,
+        lighten($brand-daric, 60%)
       );
-      background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+      background: linear-gradient(to left, $brand-daric, lighten($brand-daric, 60%));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }

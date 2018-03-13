@@ -1,0 +1,59 @@
+// Global styling for device
+.right-section {
+  top: 20px;
+}
+.iphone-x {
+  height: 650px !important;
+  width: 300px !important;
+  .notch {
+    width: 150px !important;
+    height: 16px !important;
+    top: 26px;
+    left: 100px !important;
+    &::before {
+      right: -7px !important;
+    }
+    &::after {
+      left: -7px !important;
+    }
+    .camera {
+      width: 4px;
+      height: 4px;
+      top: 0;
+      left: 120px;
+    }
+    .speaker {
+      height: 6px;
+      width: 60px;
+      left: 50%;
+      top: 0;
+      margin-left: -30px;
+    }
+  }
+  .top-bar {
+    top: 70px !important;
+  }
+  .sleep {
+    height: 85px !important;
+    top: 150px !important;
+  }
+  .bottom-bar {
+    bottom: 70px !important;
+  }
+  .volume {
+    top: 106px !important;
+    height: 25px !important;
+    ::before {
+      height: 52px !important;
+      top: 52px !important;
+    }
+    ::after {
+      height: 52px !important;
+      top: 130px !important;
+    }
+  }
+  .img-fluid {
+    height: 645px;
+    // width: 98%;
+  }
+}

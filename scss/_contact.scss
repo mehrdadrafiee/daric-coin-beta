@@ -12,17 +12,17 @@ section.contact {
     margin-bottom: 0;
     li {
       a {
-        font-size: 40px;
-        line-height: 80px;
+        font-size: 20px;
+        line-height: 40px;
         display: block;
-        width: 80px;
-        height: 80px;
+        width: 40px;
+        height: 40px;
         color: white;
         border-radius: 100%;
       }
       &.social-twitter {
         a {
-          background-color: $brand-twitter;
+          background-color: $gray-dark;
           &:hover {
             background-color: darken($brand-twitter, 5%);
           }
@@ -30,7 +30,7 @@ section.contact {
       }
       &.social-facebook {
         a {
-          background-color: $brand-facebook;
+          background-color: $gray-dark;
           &:hover {
             background-color: darken($brand-facebook, 5%);
           }
@@ -38,7 +38,7 @@ section.contact {
       }
       &.social-google-plus {
         a {
-          background-color: $brand-google-plus;
+          background-color: $gray-dark;
           &:hover {
             background-color: darken($brand-google-plus, 5%);
           }
