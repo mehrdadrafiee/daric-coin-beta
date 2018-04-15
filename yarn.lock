@@ -2988,7 +2988,7 @@ setprototypeof@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/setprototypeof/-/setprototypeof-1.0.3.tgz#66567e37043eeb4f04d91bd658c0cbefb55b8e04"
 
-shabnam-font@^3.0.0:
+shabnam-font@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/shabnam-font/-/shabnam-font-2.1.1.tgz#7584f36dd8061223a77541fec59326946e7e68e2"
 
