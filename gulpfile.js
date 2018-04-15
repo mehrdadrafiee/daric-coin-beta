@@ -37,6 +37,13 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/font-awesome'))
 
+    // Shabnam Font
+    gulp.src([
+        './node_modules/shabnam-font/dist/**/*',
+        '!./node_modules/shabnam-font/dist/.*',
+      ])
+      .pipe(gulp.dest('./vendor/shabnam-font'))
+
   // jQuery
   gulp.src([
       './node_modules/jquery/dist/*',
